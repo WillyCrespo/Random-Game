@@ -9,4 +9,5 @@ this game is to have fun with your life!
 That's it
 go have fun now
 
-NOTE:You have to run game in CMD
+
+Run game for windows
