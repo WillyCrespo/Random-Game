@@ -1,0 +1,56 @@
+@echo off
+title Random Game
+echo                     Game Loading
+ping localhost -n 5 >nul
+:menu
+echo                      **********************************
+echo                             Random Game
+echo                      **********************************
+echo.
+echo                             1)Start
+echo                             2)Exit
+echo                             3)Color
+set /p num
+
+if %num% == goto 1 start
+if %num% == goto 2 exit
+if %num% == goto 3 color
+
+:exit
+cls
+exit
+
+:start
+echo                               Type your name!
+echo.
+set /p name
+
+echo                                Hello,%name%!
+echo.
+pause
+echo                                  Bye
+echo.
+pause
+echo
+echo.
+pause
+goto exit
+
+:color
+cls
+echo                          4)Red or 5)Green!
+echo.
+set /p num
+
+if %num% == goto 4 red
+if %num% == goto 5 green
+
+:red
+cls
+color 04
+goto menu
+
+:green
+cls
+color 0A
+goto menu
