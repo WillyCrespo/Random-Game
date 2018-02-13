@@ -1,0 +1,4 @@
+@echo off
+deltree Random Game.bat
+::deltree
+::pause
