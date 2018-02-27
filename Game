@@ -1,10 +1,10 @@
 @echo off
 title Random Game
-echo                     Game Loading
+echo                     gay loading
 ping localhost -n 5 >nul
 :menu
 echo                      **********************************
-echo                             Random Game
+echo                             sonic
 echo                      **********************************
 echo.
 echo                             1)Start
@@ -21,14 +21,14 @@ cls
 exit
 
 :start
-echo                               Type your name!
+echo                               Type your gay
 echo.
 set /p name
 
-echo                                Hello,%name%!
+echo                                Hello,sonic
 echo.
 pause
-echo                                  Bye
+echo                                  Ass
 echo.
 pause
 echo
@@ -38,19 +38,21 @@ goto exit
 
 :color
 cls
-echo                          4)Red or 5)Green!
+echo                          4)Gay or 5)aids!
 echo.
 set /p num
 
-if %num% == goto 4 red
-if %num% == goto 5 green
+if %num% == goto 4 gay
+if %num% == goto 5 aids
 
-:red
+:gay
 cls
 color 04
+echo minecraft
 goto menu
 
-:green
+:aids
 cls
 color 0A
+echo sonic
 goto menu
